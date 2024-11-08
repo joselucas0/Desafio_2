@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("estoque_Mercado")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a41ac31aaea65e16e2fc074e072170caa39cf899")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+218d755a042c56a7ed19145cbce34abbc99bb57c")]
 [assembly: System.Reflection.AssemblyProductAttribute("estoque_Mercado")]
 [assembly: System.Reflection.AssemblyTitleAttribute("estoque_Mercado")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

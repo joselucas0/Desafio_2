@@ -37,3 +37,16 @@ C:\Users\leandrocandido\Documents\Desafio_2\estoque_Mercado\obj\Debug\net8.0\est
 C:\Users\leandrocandido\Documents\Desafio_2\estoque_Mercado\obj\Debug\net8.0\estoque_Mercado.dll
 C:\Users\leandrocandido\Documents\Desafio_2\estoque_Mercado\obj\Debug\net8.0\estoque_Mercado.pdb
 C:\Users\leandrocandido\Documents\Desafio_2\estoque_Mercado\obj\Debug\net8.0\estoque_Mercado.genruntimeconfig.cache
+C:\Users\thiagocarvalho\Documents\Desafio_2\estoque_Mercado\bin\Debug\net8.0\estoque_Mercado.exe
+C:\Users\thiagocarvalho\Documents\Desafio_2\estoque_Mercado\bin\Debug\net8.0\estoque_Mercado.deps.json
+C:\Users\thiagocarvalho\Documents\Desafio_2\estoque_Mercado\bin\Debug\net8.0\estoque_Mercado.runtimeconfig.json
+C:\Users\thiagocarvalho\Documents\Desafio_2\estoque_Mercado\bin\Debug\net8.0\estoque_Mercado.dll
+C:\Users\thiagocarvalho\Documents\Desafio_2\estoque_Mercado\bin\Debug\net8.0\estoque_Mercado.pdb
+C:\Users\thiagocarvalho\Documents\Desafio_2\estoque_Mercado\obj\Debug\net8.0\estoque_Mercado.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thiagocarvalho\Documents\Desafio_2\estoque_Mercado\obj\Debug\net8.0\estoque_Mercado.AssemblyInfoInputs.cache
+C:\Users\thiagocarvalho\Documents\Desafio_2\estoque_Mercado\obj\Debug\net8.0\estoque_Mercado.AssemblyInfo.cs
+C:\Users\thiagocarvalho\Documents\Desafio_2\estoque_Mercado\obj\Debug\net8.0\estoque_Mercado.csproj.CoreCompileInputs.cache
+C:\Users\thiagocarvalho\Documents\Desafio_2\estoque_Mercado\obj\Debug\net8.0\estoque_Mercado.sourcelink.json
+C:\Users\thiagocarvalho\Documents\Desafio_2\estoque_Mercado\obj\Debug\net8.0\estoque_Mercado.dll
+C:\Users\thiagocarvalho\Documents\Desafio_2\estoque_Mercado\obj\Debug\net8.0\estoque_Mercado.pdb
+C:\Users\thiagocarvalho\Documents\Desafio_2\estoque_Mercado\obj\Debug\net8.0\estoque_Mercado.genruntimeconfig.cache

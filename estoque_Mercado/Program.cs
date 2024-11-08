@@ -6,7 +6,7 @@ namespace estoque_Mercado
     {
         static void ImprimeEstoque(int[,,] matriz)
         {
-            Console.WriteLine("Estoque do Mercado:");
+            Console.WriteLine("\nEstoque dos Mercados:\n\n");
             for (int i = 0; i < matriz.GetLength(0); i++)
             {
                 Console.WriteLine($"Loja {i + 1}: \n");
@@ -27,17 +27,17 @@ namespace estoque_Mercado
         {
             int vendas = 0;
             
-            Console.WriteLine($"Produtos vendidos na Loja {loja}:");
+            Console.WriteLine($"\nProdutos vendidos na Loja {loja + 1}:\n");
             for (int i = 0; i < matriz.GetLength(1); i++)
             {   
 
                 Console.WriteLine($"Semana {i + 1}:");
                 int resultado = matriz[loja, i, 0] - matriz[loja, i, 6];
                 Console.WriteLine($"Produtos vendidos: {resultado}");
-                Console.WriteLine("\n");
+                Console.WriteLine();
                 vendas += resultado;
             }
-            Console.WriteLine($"Total de produtos vendidos na Loja {loja}: {vendas}\n");
+            Console.WriteLine($"Total de produtos vendidos na Loja {loja + 1}: {vendas}\n");
             return vendas;
 
         }
@@ -58,7 +58,7 @@ namespace estoque_Mercado
                     lojaMaior = i;
                 }
             }
-                Console.WriteLine($"Loja com maior venda: Loja {lojaMaior + 1}\n Maior vendas: {maxVendas}\n");
+                Console.WriteLine($"\nLoja com maior venda: Loja {lojaMaior + 1}\nMaior vendas: {maxVendas}\n");
         }   
 
         public static void Main()
@@ -124,12 +124,43 @@ namespace estoque_Mercado
                 },
             };
 
-
-            //Imprimindo matriz com funcao ImprimeEstoque
-            //ImprimeEstoque(estoque);
-            //Console.WriteLine();
             
-            LojaMaiorVenda(estoque);
+            Console.WriteLine("------------------\nInforme uma opção\n------------------");
+            Console.WriteLine("\n1 - Imprimir estoque de todas as lojas\n2 - Total de produtos vendidos\n3 - Loja com mais vendas\n0 - Sair\n");
+            int op = Convert.ToInt32(Console.ReadLine());
+
+            while (op != 0)
+            {
+                switch (op)
+                {
+                    case 1:
+                        Console.Clear();
+                        ImprimeEstoque(estoque);
+                        break;
+                    case 2:
+                        Console.Clear();
+                        Console.WriteLine("\nInforme qual loja deseja saber o total de produtos vendidos. Lojas vão de 1 a 5 apenas");
+                        int loja = Convert.ToInt32(Console.ReadLine());
+                        ProdutosVendidos(estoque, loja - 1);
+                        break;
+                    case 3:
+                        Console.Clear();
+                        LojaMaiorVenda(estoque);
+                        break;
+                    default:
+                        break;
+                }
+
+
+                Console.WriteLine("\n\nAperte qualquer tecla para continuar...\n");
+                Console.ReadKey();
+                Console.Clear();
+                Console.WriteLine("------------------\nInforme uma opção\n------------------");
+                Console.WriteLine("\n1 - Imprimir estoque de todas as lojas\n2 - Total de produtos vendidos\n3 - Loja com mais vendas\n0 - Sair\n");
+                op = Convert.ToInt32(Console.ReadLine());
+
+                
+            }
 
         }
     }
