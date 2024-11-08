@@ -4,8 +4,28 @@ namespace estoque_Mercado
 {
     public class Program
     {
+        static void ImprimeEstoque(int[,,] matriz)
+        {
+            Console.WriteLine("Estoque do Mercado:");
+            for (int i = 0; i < matriz.GetLength(0); i++)
+            {
+                Console.WriteLine($"Loja {i + 1}: \n");
+                for (int j = 0; j < matriz.GetLength(1); j++)
+                {
+                    Console.WriteLine($"Semana {j + 1}:");
+                    for (int k = 0; k < matriz.GetLength(2); k++)
+                    {
+                        Console.Write($"{matriz[i, j, k]} ");
+                    }
+                    Console.WriteLine("\n");
+                }
+                Console.WriteLine();
+            }
+        }
+
         public static void Main()
         {
+            Console.Clear();
             //Get.Length 0,1,2 = Loja, Semanas, Dias
             int[,,] estoque = new int[5, 4, 7]
             {
@@ -20,7 +40,7 @@ namespace estoque_Mercado
                     // Semana 4
                     { 21, 17, 14, 11, 9, 7, 5 },
                 },
-                // Loja 2 
+                // Loja 2
                 {
                     // Semana 1
                     { 110, 102, 99, 93, 91, 87, 83 },
@@ -31,7 +51,7 @@ namespace estoque_Mercado
                     // Semana 4
                     { 31, 27, 24, 21, 19, 17, 15 },
                 },
-                // Loja 3 
+                // Loja 3
                 {
                     // Semana 1
                     { 120, 112, 109, 103, 101, 97, 93 },
@@ -42,7 +62,7 @@ namespace estoque_Mercado
                     // Semana 4
                     { 41, 37, 34, 31, 29, 27, 25 },
                 },
-                // Loja 4 
+                // Loja 4
                 {
                     // Semana 1
                     { 130, 122, 119, 113, 111, 107, 103 },
@@ -53,7 +73,7 @@ namespace estoque_Mercado
                     // Semana 4
                     { 51, 47, 44, 41, 39, 37, 35 },
                 },
-                // Loja 5 
+                // Loja 5
                 {
                     // Semana 1
                     { 140, 132, 129, 123, 121, 117, 113 },
@@ -66,22 +86,9 @@ namespace estoque_Mercado
                 },
             };
 
-            //Imprimindo a matriz
-            Console.WriteLine("Estoque do Mercado:");
-            for (int i = 0; i < estoque.GetLength(0); i++)
-            {
-                Console.WriteLine($"Loja {i + 1}:");
-                for (int j = 0; j < estoque.GetLength(1); j++)
-                {
-                    Console.WriteLine($"Semana {j + 1}:");
-                    for (int k = 0; k < estoque.GetLength(2); k++)
-                    {
-                        Console.Write($"{estoque[i, j, k]} ");
-                    }
-                    Console.WriteLine();
-                }
-                Console.WriteLine();
-            }
+
+            //Imprimindo matriz com funcao ImprimeEstoque
+            ImprimeEstoque(estoque);
         }
     }
 }
