@@ -11,3 +11,16 @@ C:\Users\valberoliveira\Documents\Desafio_2\estoque_Mercado\obj\Debug\net8.0\est
 C:\Users\valberoliveira\Documents\Desafio_2\estoque_Mercado\obj\Debug\net8.0\estoque_Mercado.dll
 C:\Users\valberoliveira\Documents\Desafio_2\estoque_Mercado\obj\Debug\net8.0\estoque_Mercado.pdb
 C:\Users\valberoliveira\Documents\Desafio_2\estoque_Mercado\obj\Debug\net8.0\estoque_Mercado.genruntimeconfig.cache
+C:\Users\joselucas\Desktop\desafio\estoque_Mercado\bin\Debug\net8.0\estoque_Mercado.exe
+C:\Users\joselucas\Desktop\desafio\estoque_Mercado\bin\Debug\net8.0\estoque_Mercado.deps.json
+C:\Users\joselucas\Desktop\desafio\estoque_Mercado\bin\Debug\net8.0\estoque_Mercado.runtimeconfig.json
+C:\Users\joselucas\Desktop\desafio\estoque_Mercado\bin\Debug\net8.0\estoque_Mercado.dll
+C:\Users\joselucas\Desktop\desafio\estoque_Mercado\bin\Debug\net8.0\estoque_Mercado.pdb
+C:\Users\joselucas\Desktop\desafio\estoque_Mercado\obj\Debug\net8.0\estoque_Mercado.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joselucas\Desktop\desafio\estoque_Mercado\obj\Debug\net8.0\estoque_Mercado.AssemblyInfoInputs.cache
+C:\Users\joselucas\Desktop\desafio\estoque_Mercado\obj\Debug\net8.0\estoque_Mercado.AssemblyInfo.cs
+C:\Users\joselucas\Desktop\desafio\estoque_Mercado\obj\Debug\net8.0\estoque_Mercado.csproj.CoreCompileInputs.cache
+C:\Users\joselucas\Desktop\desafio\estoque_Mercado\obj\Debug\net8.0\estoque_Mercado.sourcelink.json
+C:\Users\joselucas\Desktop\desafio\estoque_Mercado\obj\Debug\net8.0\estoque_Mercado.dll
+C:\Users\joselucas\Desktop\desafio\estoque_Mercado\obj\Debug\net8.0\estoque_Mercado.pdb
+C:\Users\joselucas\Desktop\desafio\estoque_Mercado\obj\Debug\net8.0\estoque_Mercado.genruntimeconfig.cache

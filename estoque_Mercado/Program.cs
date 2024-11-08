@@ -23,6 +23,24 @@ namespace estoque_Mercado
             }
         }
 
+        static void ProdutosVendidos(int[,,] matriz, int loja)
+        {
+            int vendas = 0;
+            
+            Console.WriteLine($"Produtos vendidos na Loja {loja}:");
+            for (int i = 0; i < matriz.GetLength(1); i++)
+            {   
+
+                Console.WriteLine($"Semana {i + 1}:");
+                int resultado = matriz[loja, i, 0] - matriz[loja, i, 6];
+                Console.WriteLine($"Produtos vendidos: {resultado}");
+                Console.WriteLine("\n");
+                vendas += resultado;
+            }
+            Console.WriteLine($"Total de produtos vendidos na Loja {loja}: {vendas}\n");
+
+        }
+
         public static void Main()
         {
             Console.Clear();
@@ -88,7 +106,11 @@ namespace estoque_Mercado
 
 
             //Imprimindo matriz com funcao ImprimeEstoque
-            ImprimeEstoque(estoque);
+            //ImprimeEstoque(estoque);
+            //Console.WriteLine();
+            
+            ProdutosVendidos(estoque, 1);
+
         }
     }
 }
