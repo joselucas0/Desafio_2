@@ -8,19 +8,24 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\joselucas\\.nuget\\packages\\": {}
+    "C:\\Users\\thiagocarvalho\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\joselucas\\Desktop\\desafio\\estoque_Mercado\\estoque_Mercado.csproj",
+      "projectUniqueName": "C:\\Users\\thiagocarvalho\\Documents\\Desafio_2\\estoque_Mercado\\estoque_Mercado.csproj",
       "projectName": "estoque_Mercado",
-      "projectPath": "C:\\Users\\joselucas\\Desktop\\desafio\\estoque_Mercado\\estoque_Mercado.csproj",
-      "packagesPath": "C:\\Users\\joselucas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\joselucas\\Desktop\\desafio\\estoque_Mercado\\obj\\",
+      "projectPath": "C:\\Users\\thiagocarvalho\\Documents\\Desafio_2\\estoque_Mercado\\estoque_Mercado.csproj",
+      "packagesPath": "C:\\Users\\thiagocarvalho\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\thiagocarvalho\\Documents\\Desafio_2\\estoque_Mercado\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\joselucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\thiagocarvalho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
